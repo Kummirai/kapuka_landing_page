@@ -1,0 +1,10 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3A7717;stop-opacity:1" /> <!-- green -->
+      <stop offset="100%" style="stop-color:#01312D;stop-opacity:1" /> <!-- darkGreen -->
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="100" fill="url(#grad)"/>
+  <text x="50%" y="55%" font-family="Arial, Helvetica, sans-serif" font-weight="900" font-size="320" fill="#bff202" text-anchor="middle" dominant-baseline="middle">K</text>
+</svg>
