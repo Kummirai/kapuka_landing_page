@@ -485,7 +485,7 @@ export default function LandingPage() {
         </a>
         <div style={styles.navLinks}>
           <a href="#features" style={styles.navLink}>Services</a>
-          <a href="https://kapuka.vercel.app" style={styles.navBtn} target="_blank" rel="noopener noreferrer">Open App</a>
+          <a href="/kapuka.apk" style={styles.navBtn} download>Download APK</a>
         </div>
       </nav>
 
@@ -499,7 +499,7 @@ export default function LandingPage() {
               A driver services platform built for speed, reliability, and peace of mind.
             </p>
             <div style={{ display: "flex", gap: 12, flexWrap: "wrap", justifyContent: "center" }}>
-              <a href="https://kapuka.vercel.app" target="_blank" rel="noopener noreferrer" style={styles.phoneBtn}>
+              <a href="/kapuka.apk" style={styles.phoneBtn} download>
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                   <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
                   <polyline points="7 10 12 15 17 10" />
@@ -530,7 +530,7 @@ export default function LandingPage() {
         <div style={styles.footerGrid}>
           <div style={styles.footerCol}>
             <div style={styles.footerLabel}>Product</div>
-            <a href="https://kapuka.vercel.app" style={styles.footerLink} target="_blank" rel="noopener noreferrer">Open App</a>
+            <a href="/kapuka.apk" style={styles.footerLink} download>Download APK</a>
             <a href="#features" style={styles.footerLink}>Services</a>
           </div>
           <div style={styles.footerCol}>
